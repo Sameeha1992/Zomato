@@ -1,0 +1,878 @@
+*{
+    box-sizing: border-box;
+    font-family : Okra, Helvetica, sans-serif;
+
+    }
+
+
+ body{
+    width: 100%;
+    margin: 0;
+    background-color:white
+    
+ }   
+.Top-part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    
+}
+
+.container{
+    width:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.Top-part{
+    position: relative;
+
+    
+    width: 100%;
+    height:400px;
+    overflow: hidden;
+    
+}
+
+#zomato{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    object-fit: contain;
+    box-sizing: inherit;
+    padding: 173px;
+    margin-top: -83px;
+    
+
+}
+.headlines{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    
+}
+p.Discover{
+    position: absolute;
+    top: 0;
+    align-content: center;
+    width:100%;
+    margin-top: 183px;
+  margin-left: 398px;
+  font-size: 38px;
+  color: white;
+  box-sizing: inherit;
+  font-weight: 400;
+  font-family: Okra, Helvetica, sans-serif;
+  word-spacing: 3px;
+}
+
+.topside li{
+    display:inline;
+    color: white;
+    width: 100px;
+    height: 100px;
+
+    
+    
+    
+
+}
+.logo-container{
+    margin-left:304px;
+    padding-left:25px;
+}
+.logo-container svg{
+    margin-top:34px;
+    margin-left: -113px;
+}
+#downloadapp{
+    color: white;
+    margin-left: -100px;
+    margin-top:-19px;
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.header{
+    
+    float: right;
+    padding-left: 824px;
+    
+    
+    margin-top: -34px;
+    
+    
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    box-sizing: inherit;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 19px;
+    list-style-type: none;
+    margin-right:23px;
+    
+
+}
+.search-bar{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height:50px;
+    max-width: 796px;
+    padding: 13px;
+    border-bottom: 25px;
+    margin-left: 364px;
+    top: 257px;
+   border-radius: 0.8rem;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   display: inline;
+   
+   
+
+   
+    
+    
+    
+    
+}
+.location svg{
+    text-align: start;
+    padding-bottom: 2px;
+
+}
+.arrow svg{
+    display: inline-block;
+    margin-left: 51px;
+    
+        
+      
+}
+.location input{
+    font-size: 14px;
+  border: none;
+}
+
+    
+.search{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.search-box{
+    display: inline-flex;
+    
+
+
+}
+.line{
+    padding-left: 5px;
+    color: grey;
+}
+
+.Search{
+    max-width: 100%;
+    width:392px;
+    margin-left: 13px;
+    
+    
+    
+}
+.lens{
+    padding-left: 2px;
+    margin-left: 10px;
+}                          
+
+
+
+               /*middle container*/
+.part{
+    
+    position: relative;
+  max-width: 110rem;
+  max-height: initial;
+  margin-top:20px;
+  display: flex;
+  justify-content: center;
+  
+  
+  
+  
+}
+
+.part img{
+    
+    
+    
+    width: 488px;
+  height: 159px;
+
+  object-fit: cover;
+  overflow: hidden;
+  
+ 
+  
+  
+}
+.part-1 {
+    overflow: hidden;
+    margin-right:10px;
+    border-radius:10px;
+    border:0.5px solid #d9cbca;
+    text-align: center;
+    margin-top:15px;
+    
+    
+}
+.part-2 {
+    overflow: hidden;
+    margin-left: 12px;
+    border-radius:10px;
+    border:0.5px solid #d9cbca;
+    text-align: center;
+    margin-top:15px;
+    
+}
+
+
+.order{
+    text-align: start;
+    margin-left: 20px;
+    font-weight: 200;
+    
+  font-size: 18px;
+  line-height: 3.2rem;
+  font-family: Okra, Helvetica, sans-serif;
+  margin-top: -4.94px;
+  margin-top:-18px;
+  padding-bottom: -8.5px;
+  color: rgb(54, 54, 54);
+
+}
+
+.dining{
+    text-align: start;
+    margin-left: 20px;
+    font-weight: 200;
+    
+  font-size: 18px;
+  line-height: 3.2rem;
+  font-family: Okra, Helvetica, sans-serif;
+  margin-top: -4.94px;
+  margin-top:-18px;
+  padding-bottom: -8.5px;
+  color: rgb(54, 54, 54);
+}
+.pic-1{
+    margin-top: -44px;
+    color: rgb(79, 79, 79);
+    font-size: 16px;
+
+}
+.pic-2{
+    margin-top: -44px;
+    color: rgb(79, 79, 79);
+    font-size: 16px;
+
+
+}
+.part-1:hover{
+    transition:transform 0.7s;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.part-2:hover{
+    transition:transform 0.7s;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+
+/*3-Collection-part*/
+.right-section{
+    margin-right: 86px;
+    margin-top:  56px;
+    font-weight: 250;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 21px;
+  line-height: 0.2;
+}
+.left-section{
+    margin-top: 103px;
+    
+    
+}
+.left-section a{
+    text-decoration: none;
+}
+
+.right-section p{
+    color:rgb(79, 79, 79);
+    font-size: 20px;
+    margin-top:32px;
+}
+.right-triangle{
+    color: rgb(255, 126, 139);
+    
+}
+.images-container{
+    width:100%;
+    height:100%;
+}
+   .images{
+    width: 50%;
+    height: 55%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+    
+
+   }
+   .images img
+   {
+    width: 274px;
+  height: 308px;
+  object-fit: cover;
+  margin-top:20px;
+  
+  
+  
+
+
+
+   }
+   .image-1{
+    margin-left: 228px;
+    
+
+
+   }
+   .brilliant-biriyani{
+      margin-left:12px;
+      border-radius:10px;
+    
+
+   }
+
+   .great-braekfast{
+    border-radius:10px;
+    
+
+
+   }
+   
+   .images p{
+    position:absolute;
+    top:80%;
+    margin-left: 12px;
+    color: white;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size:17px;
+    
+    
+    
+   }
+   .images-container{
+    position: relative;
+   }
+
+.image-2 p{
+margin-left:22px;
+color: white;
+font-family: Okra, Helvetica, sans-serif;
+font-size:17px;
+}
+
+    
+
+
+/*4th part*/
+
+/* this is the box in zomato*/
+
+.heading{
+    margin-top:129px;
+    margin-left:210px;
+    font-size:37px;
+    color: rgb(54, 54, 54);
+}
+span{
+    font-weight:600;
+}
+
+
+/*this is the 1st coloumn in the zomato page*/
+
+
+.boxes{
+    width:100%;
+    height:auto;
+display:flex;
+margin-left:165px;
+
+}
+.flexbox-1{
+    width:400px;
+    height:auto;
+    margin-left:20px;
+
+    
+}
+    
+
+.coloumn-1{
+    width:338px;
+    height:82px;
+    border-style:ridge;
+    border-radius: 10px;
+    border-width:1px;
+   display:flex;
+    margin:30px;
+    position:relative;
+    border-color: lightgrey;
+
+}
+.class1{
+    position:absolute;
+    margin-top:29px;
+    margin-left:305px;
+
+}
+.coloumn-1 section{
+    margin-left:8px;
+    line-height: 5px;
+}
+.coloumn-1 p{
+    font-size:21px;
+    color: rgb(28, 28, 28);
+}
+.coloumn-1 small{
+    font-weight: 300;
+     color: rgb(54, 54, 54);
+    font-size:15px;
+}
+
+/*This is the second coloumn in the zomato webpage*/
+
+.flexbox-2{
+    width:400px;
+    height:auto;
+    margin-left:-41px;
+}
+.coloumn-2{
+    width:338px;
+    height:82px;
+    border-style:ridge;
+    border-radius:10px;
+    border-width:0.5px;
+    border-color: lightgrey;
+    display:flex;
+    margin:30px;
+    position:relative;
+    
+}
+.class2{
+    position:absolute;
+    margin-top:27px;
+    margin-left:305px;
+
+}
+.coloumn-2 section{
+    margin-left:8px;
+    line-height: 5px;
+
+}
+.coloumn-2 p{
+    font-size:21px;
+}
+.coloumn-2 small{
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+   font-size:15px;
+
+
+}
+
+
+/* This is the third coloumn in the web page*/
+
+.flexbox-3{
+    width:400px;
+    height:auto;
+    margin-left:-41px;
+}
+
+.coloumn-3{
+    width:338px;
+    height:82px;
+    border-style: ridge;
+    border-radius:10px;
+    border-width:1px;
+    display:flex;
+    margin:30px;
+    position:relative;
+    border-color:lightgrey
+    
+
+}
+.class3{
+    position:absolute;
+    margin-top:27px;
+    margin-left:305px;
+
+}
+.coloumn-3 section{
+    margin-left:8px;
+    line-height: 5px;
+
+}
+.see-down{
+    margin-left:194px;
+    position:absolute;
+    margin-top:38px;
+}
+.coloumn-3 p{
+    font-size:21px;
+}
+
+.coloumn-3 small{
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+   font-size:15px;
+}
+
+
+#see-head p{
+    margin-left:100px;
+    margin-top:35px;
+}
+ .see-more{
+    margin-top:28px;
+    margin-left:10px;
+}
+
+
+/* download app*/
+.downloads-container{
+    width:100%;
+    height:100%;
+}
+
+
+.mobile img{
+    width: 262px;
+}
+.get-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:115px;
+    background-color:  rgb(255, 251, 247);;
+}
+.mobile{
+    margin-top:148px;
+    color: rgb(54, 54, 54);;
+}
+.mobile-app{
+    margin-top:48px;
+    color: rgb(28, 28, 28);
+    line-height: 1.8rem;
+    font-weight: 500;
+    
+}
+.head{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.app-download{
+    font-size: 18px;
+  margin: 0px 0px 2.5rem;
+  color: rgb(54, 54, 54);
+  width: 100%;
+  line-height: 2.2rem;
+}
+input{
+    accent-color:  rgb(239, 79, 95);
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.mail-phone{
+    font-size: 18px;
+    margin-top: -18px;
+}
+.mail-snd input {
+    font-size: 16px;
+    height: 47px;
+    width:50%;
+    border-radius: 5px;
+}
+.share-app{
+    height: 45px;
+    width: 25%;
+    background-color: rgb(239, 79, 95); 
+    color:white;
+    border-radius: 5px;
+    border-color:1px solid rgb(239, 79, 95) ;
+}
+.under-mail{
+    font-size: smaller;
+    color: rgb(239, 79, 95) ;
+    
+}
+.download{
+    margin-top: 5px;
+    font-family: Okra, Helvetica, sans-serif;
+    color:  rgb(156, 156, 156);
+}
+.store{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  opacity: 1;
+  will-change: transform, opacity;
+  border-radius: inherit;
+  filter: unset;
+  transition: opacity 0.25s, transform 0.25s;
+  margin-top: -6px;
+}
+.playstore{
+    width:25%;
+}
+.app-store{
+    width: 25%;
+    margin-left: 10px;
+}
+
+
+/* last pat*/
+.table{
+    width:73%;
+    height:50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 0.5px solid;
+    margin: 25px;
+    border-radius: 5px;
+    align-items: center;
+    border-color: rgb(223, 215, 215);
+    background-color:white ;
+}
+.section-2 .table{
+    height: 70px;
+    margin-left:215px;
+}
+    
+.main-head{
+    margin-top:131px;
+    
+        margin-left: 235px;
+        font-size:20px;
+        color: rgb(54, 54, 54);
+}
+.table p{
+    margin-left:29px;
+    margin-top: 24px;
+    font-size:20px;
+}
+.table svg{
+
+    margin-right: 29px;
+    margin-top: 4px;
+}
+
+.last-part{
+    background-color: rgb(252, 252, 252);;
+}
+
+
+
+
+/*This is the foot section of design*/
+
+.flag{
+    width:93%;
+    height:auto;
+}
+.flag img{
+    width:20px;
+    margin-top:5px;
+    margin-right:10px;
+}
+.logoo-button button{
+    display:flex;
+    width:auto;
+    
+    height:35px;
+    padding-bottom: 10px;
+    padding-left:5px;
+    margin-left:-117px;
+    background-color: white;
+    border-style: ridge;
+}
+#down-arrow{
+    margin-top:5px;
+}
+.india{
+    margin-right:10px;
+    font-size: 17px;
+}
+    
+.india p{
+    margin-top:3px;
+
+}
+
+.Earth-logo img{
+    width:18px;
+    margin-top:5px;
+    margin-right:10px;
+
+}
+.Earth-logo{
+    display: flex;
+    width:auto;
+    height:35px;
+    padding-bottom:10px;
+    padding-left:5px;
+    margin-right:5px;
+}
+.logo-button2 button{
+    width:auto;
+    height:35px;
+    background-color: white;
+    border-style: ridge;
+    
+}
+
+.logo-button2 p{
+    margin-top:6px;
+    font-size:17px;
+
+}
+.logo-button2 #arrow{
+    margin-top:15px;
+
+}
+
+#arrow{
+    margin-top:18px;
+    margin-left:5px;
+}
+.logo-pic{
+    width:198px;
+    hight:auto;
+}
+.logo-pic img{
+    width:110px;
+    margin-left:-92px;
+    height:auto;
+}
+.foot-container{
+    display:flex;
+    justify-content: space-around;
+    margin-top:94px;
+    width:100%;
+    height:auto;
+    margin-left:55px;
+}
+.buttons{
+    display:flex;
+    margin-left:200px;
+}
+
+.last-container{
+    display:flex;
+    height:auto;
+    width:auto;
+    margin-left:100px;
+    margin-top:22px;
+    justify-content: space-around;
+    
+
+}
+.last-container li{
+    list-style-type: none;
+    line-height: 34px;
+    font-size:15px;
+    color:rgb(150, 144, 144);
+    margin-left:-15px;
+}
+.last-conatiner h4{
+    margin-left:20px;
+    font-weight: 100;
+
+}
+.last-1{
+    margin-left:20px;
+    line-height: 12px;
+    
+}
+.last-1 h4{
+    margin-left:25px;
+}
+
+.last-2{
+    margin-left:20px;
+    margin-left:-76px;
+
+}
+.last-2 h4{
+    margin-left:25px;
+}
+.last-3{
+    margin-left:-115px;
+
+}
+.last-3 h4{
+    margin-left:25px;
+
+}
+.last-4{
+    margin-left:-112px;
+}
+.last-4 h4{
+    margin-left:25px;
+}
+.last-5{
+    margin-right:191px;
+}
+.last-5 h4{
+    margin-left:5px;
+}
+.stores img{
+    width:133px;
+    margin-bottom:10px;
+}
+.stores{
+    display:flex;
+    flex-direction: column;
+    margin-top:21px;
+
+}
+.bottom{
+    width:1100px;
+    margin-left:220px;
+    margin-top:90px;
+    border-top: 1px solid;
+    border-left: 10px ;
+    border-spacing: 10px;
+    padding: 17px;
+    color:lightgrey;
+}
+.bottom small{
+    color:grey;
+}
